@@ -80,16 +80,55 @@ void loop()
       
     }
     
-    /*
+  }
+  
+  /*
     Since we can't display more than 15 in binary, if we're over 15 we just light up everything
     */
     if (count>15) {
+     delay(1000);
      digitalWrite(13,HIGH); 
      digitalWrite(12,HIGH);
      digitalWrite(11,HIGH);
      digitalWrite(10,HIGH);
+     delay(1000);
+     digitalWrite(13,LOW); 
+     digitalWrite(12,LOW);
+     digitalWrite(11,LOW);
+     digitalWrite(10,LOW);
+     delay(1000);
+     digitalWrite(13,HIGH); 
+     digitalWrite(12,HIGH);
+     digitalWrite(11,HIGH);
+     digitalWrite(10,HIGH);
+     delay(1000);
+     digitalWrite(13,LOW); 
+     digitalWrite(12,LOW);
+     digitalWrite(11,LOW);
+     digitalWrite(10,LOW);
+     delay(1000);
+     digitalWrite(13,HIGH); 
+     digitalWrite(12,HIGH);
+     digitalWrite(11,HIGH);
+     digitalWrite(10,HIGH);
+     delay(1000);
+     digitalWrite(13,LOW); 
+     digitalWrite(12,LOW);
+     digitalWrite(11,LOW);
+     digitalWrite(10,LOW);
+     delay(1000);
+     digitalWrite(13,HIGH); 
+     digitalWrite(12,HIGH);
+     digitalWrite(11,HIGH);
+     digitalWrite(10,HIGH);
+     delay(1000);
+     digitalWrite(13,LOW); 
+     digitalWrite(12,LOW);
+     digitalWrite(11,LOW);
+     digitalWrite(10,LOW);
+     count=0;
+
     } 
-  }
   
   lastButton1State = button1State;
   lastButton2State = button2State;
